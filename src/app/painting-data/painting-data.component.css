@@ -1,0 +1,25 @@
+.painting-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.painting-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.painting-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.painting-details p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.painting-details strong {
+  font-weight: bold;
+}

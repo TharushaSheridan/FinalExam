@@ -27,3 +27,4 @@ import { PaintingDataComponent } from './painting-data/painting-data.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
