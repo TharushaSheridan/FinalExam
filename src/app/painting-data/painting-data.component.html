@@ -1,1 +1,9 @@
-<p>painting-data works!</p>
+<div class="painting-details" *ngIf="paintingData">
+  <img [src]="'http://tetervak.dev.fast.sheridanc.on.ca/exams/angular/images/' + paintingData.picture" alt="{{ paintingData.name }}">
+  <h2>{{ paintingData.name }}</h2>
+  <p><strong>Artist:</strong> {{ paintingData.artist }}</p>
+  <p><strong>Dimensions:</strong> {{ paintingData.dimensions.width }} inches (W) x {{ paintingData.dimensions.height }} inches (H)</p>
+  <p><strong>Medium:</strong> {{ paintingData.medium }}</p>
+  <p><strong>Famous:</strong> {{ paintingData.famous ? 'Yes' : 'No' }}</p>
+</div>
+
