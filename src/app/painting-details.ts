@@ -1,12 +1,12 @@
-export interface paintingDetails {
-  "id": number,
-  "name": String,
-  "artist": String,
-  dimensions: {
+export class PaintingDetails {
+  public id: number = 0;
+  public name: string = '';
+  public artist: string = '';
+  public dimensions: {
     width: number;
     height: number;
-  };
-  "medium": String,
-  "picture": String,
-  "famous": Boolean
+  } = { width: 0, height: 0 };
+  public medium: string = '';
+  public picture: string = '';
+  public famous: boolean = false;
 }
