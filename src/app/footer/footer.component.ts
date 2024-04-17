@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  @Input() public name = 'Tharusha Liyanage';
-  public today: Date;
+  @Input() name: string = 'Tharusha Liyanage';
+  today: Date;
   constructor() {
     this.today = new Date();
   }
